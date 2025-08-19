@@ -1,8 +1,8 @@
 import requests
-from .config import RBXWIRENET_API_KEY, BASE_URL
+from .config import RBXWIRENET_GROUP_API_KEY, BASE_URL
 
 class APIClient:
-    def __init__(self, base_url=BASE_URL, api_key=RBXWIRENET_API_KEY):
+    def __init__(self, base_url=BASE_URL, api_key=RBXWIRENET_GROUP_API_KEY):
         self.base_url = base_url
         self.api_key = api_key
         self.session = requests.Session()

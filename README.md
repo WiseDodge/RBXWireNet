@@ -24,13 +24,13 @@ RBXWireNet provides clean, modular, and extensible access to Roblox’s modern O
 Set your Roblox Open Cloud API key as an environment variable before running:
 
 ```
-export RBXWIRENET_API_KEY="your_real_api_key"
+export RBXWIRENET_GROUP_API_KEY="your_real_api_key"
 ```
 
 Or create a `.env` file in the project root with:
 
 ```
-RBXWIRENET_API_KEY=your_real_api_key
+RBXWIRENET_GROUP_API_KEY=your_real_api_key
 ```
 
 ---
