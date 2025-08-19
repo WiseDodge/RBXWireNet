@@ -1,9 +1,11 @@
 from .api_client import APIClient
 
+
 class GroupLocatorClient:
     def __init__(self, api_client=None):
         self.api_client = api_client or APIClient()
         self.endpoint = "groups/"  # updated endpoint path for Cloud v2 API
+
 
     def get_group_info(self, group_id):
         endpoint = f"{self.endpoint}{group_id}"

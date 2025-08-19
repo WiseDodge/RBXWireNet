@@ -1,5 +1,6 @@
 from roblox_opencloud.group_locator import GroupLocatorClient
 
+
 def main():
     client = GroupLocatorClient()
     group_id = int(input("Enter Roblox Group ID: "))
@@ -8,6 +9,7 @@ def main():
         print("Group Info:", group_info)
     except Exception as e:
         print("Error:", e)
+
 
 if __name__ == "__main__":
     main()
