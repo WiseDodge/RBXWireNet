@@ -1,0 +1,125 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Local environment variable files
+.env
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Spyder
+.spyderproject
+.spyproject
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Coverage reports
+coverage.xml
+*.coveragerc
+
+# dotenv
+# Already ignored by .env, but just in case:
+*.env
+
+# pylint reports
+pylint.log
+
+# Pytest cache
+.pytest_cache/
+
+# Rope project settings
+.ropeproject
+
+# Caches
+.cache/
+
+# Editor backups
+*~
+
+# Backup files
+*.bak
+*.tmp
+
+# Ignore Python cache folders in source and tests
+src/__pycache__/
+src/roblox_opencloud/__pycache__/
+src/tests/__pycache__/
+
+# Virtual environment folders possibly inside src/
+src/venv/
+src/.venv/
+
+# Ignore PLANS.md in docs from commits
+docs/PLANS.md
