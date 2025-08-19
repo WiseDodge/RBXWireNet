@@ -10,3 +10,9 @@ class GroupLocatorClient:
     def get_group_info(self, group_id):
         endpoint = f"{self.endpoint}{group_id}"
         return self.api_client.get(endpoint)
+
+    def get_group_memberships(self, group_id, max_page_size=10, page_token=None):
+        endpoint = f"{self.endpoint}{group_id}/memberships?maxPageSize={max_page_size}"
+        if page_token:
+            endpoint += f"&pageToken={page_token}"
+        return self.api_client.get(endpoint)
