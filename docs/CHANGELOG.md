@@ -16,6 +16,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Created unit tests with mocks and integration tests for `GroupLocatorClient` covering both fake and real API responses.
 - Prepared README.md with project overview, usage, tech stack, and configuration instructions.
 - Established project plans in `PLANS.md` detailing roadmap and feature vision.
+- Added membership module within group locator to extend functionality.
+- Added `get_group_roles` and `get_group_join_requests` methods to `GroupLocatorClient`.
+- Added mocks and real tests for group roles and join requests, improving test coverage.
+- Added environment variable `RUN_JOIN_REQUESTS_TESTS` secret to GitHub Actions workflow for conditional join requests testing.
 
 ### Changed
 - Updated base URL in config to target Roblox Cloud v2 API (`https://apis.roblox.com/cloud/v2/`).
