@@ -26,3 +26,4 @@ class GroupLocatorClient:
         if page_token:
             endpoint += f"&pageToken={page_token}"
         return self.api_client.get(endpoint)
+
