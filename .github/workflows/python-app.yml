@@ -14,6 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       RBXWIRENET_GROUP_API_KEY: ${{ secrets.RBXWIRENET_GROUP_API_KEY }}
+      RUN_JOIN_REQUESTS_TESTS: ${{ secrets.RUN_JOIN_REQUESTS_TESTS || 'false' }}
     steps:
     - uses: actions/checkout@v4
 
