@@ -22,3 +22,7 @@ class APIClient:
 
     def get(self, endpoint, params=None):
         return self._request("GET", endpoint, params)
+
+    def get_group_info(self, group_id):
+        endpoint = f"groups/{group_id}"
+        return self.get(endpoint)
